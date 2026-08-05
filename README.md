@@ -29,7 +29,7 @@ A command-line application to track and manage fuel expenses, built with Python 
    ```
    pip install mysql-connector-python
    ```
-2. Create a MySQL database named `petrol_expense` with `users` and `expenses` tables.
+2. Run `schema.sql` in your MySQL client to create the `petrol_expense` database along with the `users` and `expenses` tables.
 3. Update the database connection details (host, user, password) in the script to match your local setup.
 4. Run the script:
    ```
